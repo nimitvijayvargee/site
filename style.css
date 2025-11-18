@@ -5,8 +5,13 @@ body {
     background-color: #000;
     font-family: "Funnel Display", sans-serif;
     color: white;
+    overflow-x: hidden;
 }
 
+::selection {
+    background: #555;
+    color: white;
+}
 #navbar {
     background-color: #333;
     overflow: hidden;
@@ -22,6 +27,7 @@ a {
     padding: 14px 20px;
     display: inline-block;
     margin: 0px;
+    transition:.4s ease;
 }
 
 .active {
@@ -88,4 +94,15 @@ a:hover {
     border: #444 1px solid;
     background-color: #333;
     float: right;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #444;
+    margin-top: 20px;
+    height: auto;
+    width: 100%;
+    bottom: 0;
+    position: relative;
 }
