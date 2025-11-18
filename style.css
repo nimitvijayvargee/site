@@ -2,21 +2,21 @@
 @media (min-width: 768px) {
 
     #desktop-client {
-        display: block;
+        display: block !important;
     }
 
     #mobile-client {
-        display: none;
+        display: none !important;
     }
 }
 
 @media (max-width: 768px) {
     #desktop-client {
-        display: none;
+        display: none !important;
     }
 
     #mobile-client {
-        display: block;
+        display: block !important;
     }
 }
 
