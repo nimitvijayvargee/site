@@ -1,24 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
-@media (min-width: 768px) {
-
-    #desktop-client {
-        display: block !important;
-    }
-
-    #mobile-client {
-        display: none !important;
-    }
-}
-
-@media (max-width: 768px) {
-    #desktop-client {
-        display: none !important;
-    }
-
-    #mobile-client {
-        display: block !important;
-    }
-}
 
 body {
     margin: 0px;
@@ -65,7 +45,6 @@ a:hover {
     border-left: 2px solid #444;
     border-right: 2px solid #444;
     border-bottom: 2px solid #444;
-    height: 100%;
     background-color: #0a0a0a;
 }
 
@@ -126,4 +105,26 @@ footer {
     width: 100%;
     bottom: 0;
     position: relative;
+}
+
+
+@media (min-width: 768px) {
+
+    #desktop-client {
+        display: block !important;
+    }
+
+    #mobile-client {
+        display: none !important;
+    }
+}
+
+@media (max-width: 768px) {
+    #desktop-client {
+        display: none !important;
+    }
+
+    #mobile-client {
+        display: block !important;
+    }
 }
